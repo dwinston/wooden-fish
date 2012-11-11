@@ -7,7 +7,7 @@ if (len(sys.argv) != 3):
     print """
 Two arguments needed: mean and totalDuration.
 Example usage: ./woodenfish.py 5 60
-The above will generate a sequence of stike interarrival times 
+The above will generate a sequence of strike interarrival times 
 5 sec apart on average, until approximately 60 sec have passed.
 """
     sys.exit()
